@@ -1,0 +1,185 @@
+.hollow {
+	fill: var(--fill, #101010);
+	stroke: var(--icon, #aed581);
+	stroke-width: 2;
+}
+.solid {
+	fill: var(--icon, #aed581);
+	stroke: var(--icon, #aed581);
+	stroke-width: 0.2;
+}
+.outline {
+	fill: var(--fill, #ffffff);
+	fill-opacity: var(--outer-fill-opacity, 1);
+	stroke: var(--outer, #00bb66);
+	stroke-width: var(--outer-width, 7);
+}
+.mon {
+	--icon: #101010;
+	--fill: #aed581;
+	--outer: #aed581;
+}
+.mof {
+	--icon: #aed581;
+	--fill: #101010;
+	--outer: #aed581;
+}
+.delete {
+	--icon: #101010;
+	--fill: #e57373;
+	--outer: #e57373;
+}
+.clone {
+	--icon: #101010;
+	--fill: #81d4fa;
+	--outer: #81d4fa;
+}
+.mon2 {
+	--icon: #4fc3f7;
+	--fill: #aed581;
+	--outer: #aed581;
+	--outer-fill-opacity: 0;
+}
+.mof2 {
+	--icon: #4fc3f7;
+	--fill: #101010;
+	--outer: #aed581;
+	--outer-fill-opacity: 0;
+}
+.delete2 {
+	--icon: #4fc3f7;
+	--fill: #e57373;
+	--outer: #e57373;
+	--outer-fill-opacity: 0;
+}
+.clone2 {
+	--icon: #4fc3f7;
+	--fill: #81d4fa;
+	--outer: #81d4fa;
+	--outer-fill-opacity: 0;
+}
+.zone {
+	rx		: 6px;
+	stroke		: #ddddff;
+	stroke-width	: 3;
+	fill		: #ddddff;
+	fill-opacity	: 0.3;
+}
+.zoneDelete {
+	rx		: 6px;
+	stroke		: #e57373;
+	stroke-width	: 3;
+	fill		: #e57373;
+	fill-opacity	: 0.3;
+}
+.zoneActive {
+	rx		: 6px;
+	stroke		: #aed581;
+	stroke-width	: 3;
+	fill		: #aed581;
+	fill-opacity	: 0.3;
+}
+.icon {
+	transform	: scale(0.3);
+}
+.link {
+	stroke		: #4fc3f7;
+	stroke-width	: 10;
+}
+.box-normal {
+	rx		: 6px;
+	fill		: #505050;
+	stroke		: #ddddff;
+	stroke-width	: 4;
+	fill-opacity	: 1;
+}
+.box-delete {
+	rx		: 6px;
+	fill		: #505050;
+	stroke		: #e57373;
+	stroke-width	: 4;
+	fill-opacity	: 1;
+}
+.gridline {
+	stroke		: #ddddff;
+	stroke-width	: 2;
+}
+.panel {
+	rx		: 8px;
+	fill		: #505050;
+	fill-opacity	: 1;
+}
+.gridPoints {
+	fill		: #202020;
+	fill-opacity	: 1;
+}
+
+/* node status styles */
+.status-pending {
+	--status-icon: #81d4fa;
+	--status-outer: #81d4fa;
+}
+.status-running {
+	--status-icon: #aed581;
+	--status-outer: #aed581;
+}
+.nodeOn {
+	--icon: #101010;
+	--fill: var(--icon);
+	--outer: var(--icon);
+}
+.hover-false {
+	--icon: var(--status-icon);
+	--fill: #101010;
+	--outer: var(--status-icon);
+}
+.hover-true {
+	--icon: #101010;
+	--fill: var(--status-icon);
+	--outer: var(--status-icon);
+}
+.status-normal {
+	--status-icon: #bbbbbb;
+	--status-outer: #bbbbbb;
+}
+.status-delete {
+	--status-icon: #e57373;
+	--status-outer: #e57373;
+}
+.status-clone {
+	--status-icon: #81d4fa;
+	--status-outer: #81d4fa;
+}
+
+/* panel status styles */
+.panel-status-normal {
+	--status-fill: #bbbbbb;
+	--status-stroke: #bbbbbb;
+}
+.panel-status-broken {
+	--status-fill: #e57373;
+	--status-stroke: #e57373;
+}
+.panel-status-pending {
+	--status-fill: #81d4fa;
+	--status-stroke: #81d4fa;
+}
+.panel-status-healthy {
+	--status-fill: #aed581;
+	--status-stroke: #aed581;
+}
+.panel-hover-false {
+	--fill: #101010;
+	--stroke: var(--status-stroke);
+}
+.panel-hover-true {
+	--fill: var(--status-stroke);
+	--stroke: #101010;
+}
+.panel-base {
+	rx		: 8px;
+	fill		: var(--fill, #505050);
+	stroke		: var(--stroke, #505050);
+	stroke-width	: 0px;
+	fill-opacity	: 1;
+}
